@@ -18,6 +18,9 @@ or for Async
 There are 5 different Log Levels available to you.  They are: 
 @info@, @debug@, @warn@, @error@, @fatal@
 
+If you want to log in plain text (esp if your Loggly input is already setup for text only), use the @Log@ method:
+<pre>logger.log("This is my log message");</pre>
+
 h3. Searching Events
 
 First, setup the username/password you want to connect with:

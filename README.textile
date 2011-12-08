@@ -9,6 +9,15 @@ Create a new @Logger@ with your input key:
 
 Use either a synchronous or asynchronous @Log@ method.
 
+To Log in a structured way that allows you to reliabily capture a Log Level and the Machine Name use:
+<pre>logger.Log(StructuredLogLevel.debug, "machineName", "Log Message");</pre>
+
+or for Async
+<pre>logger.LogAsync(StructruedLogLevel.info, "machineName", "Log Message");</pre>
+
+There are 5 different Log Levels available to you.  They are: 
+@info@, @debug@, @warn@, @error@, @fatal@
+
 h3. Searching Events
 
 First, setup the username/password you want to connect with:

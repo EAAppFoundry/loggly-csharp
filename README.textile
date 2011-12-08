@@ -2,6 +2,8 @@ h2. Loggly .NET Driver
 
 This is a .NET driver for "loggly.com":http://loggly.com.
 
+Download the bits here: https://github.com/downloads/EAAppFoundry/loggly-csharp/Loggly.zip
+
 h3. Logging Events
 
 Create a new @Logger@ with your input key:
